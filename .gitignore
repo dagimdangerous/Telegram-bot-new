@@ -1,0 +1,11 @@
+# Secret files
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
