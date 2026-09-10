@@ -17,6 +17,10 @@ import os
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
+# Debug: Print to see if variables loaded (remove after testing)
+print(f"Token loaded: {TELEGRAM_TOKEN is not None}")
+print(f"API Key loaded: {OPENROUTER_API_KEY is not None}")
+
 # --- MEMORY SYSTEM ---
 conversation_history = {}
 
