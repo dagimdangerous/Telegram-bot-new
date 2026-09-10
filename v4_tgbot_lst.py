@@ -14,8 +14,8 @@ import html
 
 # --- CONFIGURATION ---
 import os
-TELEGRAM_TOKEN = os.getenv("Telegram-Bot-Father Token")
-OPENROUTER_API_KEY = os.getenv("OpenRouter Token")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # --- MEMORY SYSTEM ---
 conversation_history = {}
